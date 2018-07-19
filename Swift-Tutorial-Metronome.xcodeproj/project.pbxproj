@@ -12,6 +12,8 @@
 		788C8B8A20FF888200AC2DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788C8B8820FF888200AC2DEC /* Main.storyboard */; };
 		788C8B8C20FF888300AC2DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788C8B8B20FF888300AC2DEC /* Assets.xcassets */; };
 		788C8B8F20FF888300AC2DEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788C8B8D20FF888300AC2DEC /* LaunchScreen.storyboard */; };
+		788C8B9820FF88F900AC2DEC /* metronome.wav in Resources */ = {isa = PBXBuildFile; fileRef = 788C8B9720FF88F900AC2DEC /* metronome.wav */; };
+		788C8B9A20FF896800AC2DEC /* Metronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C8B9920FF896800AC2DEC /* Metronome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		788C8B8B20FF888300AC2DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		788C8B8E20FF888300AC2DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		788C8B9020FF888300AC2DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		788C8B9720FF88F900AC2DEC /* metronome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = metronome.wav; sourceTree = "<group>"; };
+		788C8B9920FF896800AC2DEC /* Metronome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metronome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		788C8B8320FF888200AC2DEC /* Swift-Tutorial-Metronome */ = {
 			isa = PBXGroup;
 			children = (
+				788C8B9620FF88DB00AC2DEC /* Resources */,
 				788C8B8420FF888200AC2DEC /* AppDelegate.swift */,
 				788C8B8620FF888200AC2DEC /* ViewController.swift */,
+				788C8B9920FF896800AC2DEC /* Metronome.swift */,
 				788C8B8820FF888200AC2DEC /* Main.storyboard */,
 				788C8B8B20FF888300AC2DEC /* Assets.xcassets */,
 				788C8B8D20FF888300AC2DEC /* LaunchScreen.storyboard */,
 				788C8B9020FF888300AC2DEC /* Info.plist */,
 			);
 			path = "Swift-Tutorial-Metronome";
+			sourceTree = "<group>";
+		};
+		788C8B9620FF88DB00AC2DEC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				788C8B9720FF88F900AC2DEC /* metronome.wav */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,7 @@
 				788C8B8F20FF888300AC2DEC /* LaunchScreen.storyboard in Resources */,
 				788C8B8C20FF888300AC2DEC /* Assets.xcassets in Resources */,
 				788C8B8A20FF888200AC2DEC /* Main.storyboard in Resources */,
+				788C8B9820FF88F900AC2DEC /* metronome.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				788C8B9A20FF896800AC2DEC /* Metronome.swift in Sources */,
 				788C8B8720FF888200AC2DEC /* ViewController.swift in Sources */,
 				788C8B8520FF888200AC2DEC /* AppDelegate.swift in Sources */,
 			);
